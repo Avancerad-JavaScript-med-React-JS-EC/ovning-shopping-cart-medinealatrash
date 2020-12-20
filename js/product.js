@@ -1,16 +1,15 @@
 import React from 'react';
-//import Lorem from 'react-lorem/Lorem.jsx';
 import { LoremIpsum } from 'react-lorem-ipsum';
 
-function Product(props){
+function Product(prop){
     return(
         <div className="some-products">
-            <h3>{props.title}</h3>
+            <h3>{prop.title}</h3>
             <h5>Av Sir Arthur Conan Doyle</h5>
             <p className="text"><LoremIpsum p={1}  /></p>
-           <div className="btn">
+            <div className="btn">
                 <button>Add to cart</button>
-                </div>
+            </div>
         </div>
     )
 }
