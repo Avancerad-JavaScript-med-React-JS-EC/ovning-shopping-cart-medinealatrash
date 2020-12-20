@@ -21,7 +21,7 @@ function App(){
                         <Product title="A Sign of Four" />
                         <Product title="A Study in Scarlet" />
                         <Product title="Baskervilles Hound" />
-                        <Product title="The Adventure oF Sherlock Holmes" />
+                        <Product title="The Adventure of Sherlock Holmes" />
                 </div>
             </div>
             
